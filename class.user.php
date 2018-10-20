@@ -187,10 +187,10 @@ class USER
 		$mail->Host       = "smtp.139.com";      
 		$mail->Port       = 465;             
 		$mail->AddAddress($email);
-		$mail->Username="13910723894@139.com";  
+		$mail->Username="139100000000@139.com";  
 		$mail->Password="邮箱密码";            
-		$mail->SetFrom('13910723894@139.com','华御VPN系统');
-		$mail->AddReplyTo("13910723894@139.com","华御VPN系统");
+		$mail->SetFrom('139100000000@139.com','VPN系统');
+		$mail->AddReplyTo("139100000000@139.com","VPN系统");
 		$mail->Subject    = $subject;
 		$mail->MsgHTML($message);
 		$mail->Send();
